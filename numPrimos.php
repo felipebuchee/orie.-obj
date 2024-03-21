@@ -18,17 +18,17 @@ function primos($num){
     }
     return true;
 
-   if ($divisor == 2) {
+if ($divisor == 2) {
     return true;
-   }
+}
 
-   else {
+else {
     return false;
-   }
-   
     }
 
- if (primos($num)) {
+}
+
+if (primos($num)) {
         echo "$num é primo!";
     } else {
         echo "$num não é primo.";
